@@ -1,0 +1,12 @@
+.header {
+    color: crimson;
+    text-align: center;
+    font-size: 48px;
+}
+.inputBox{
+    padding: 10px;
+}
+.instructions{
+    font-size: 24px;
+    font-weight: lighter;
+}
