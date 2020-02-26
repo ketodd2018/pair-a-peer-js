@@ -1,9 +1,11 @@
 <!DOCTYPE html>
-<link rel='stylesheet' type='text/css' href='styles.css' />
+
 <html>
 
 <head>
     <title>Pair-A-Peer</title>
+    <link rel='stylesheet' type='text/css' href='styles.css' />
+    <script src = "script.js"></script>
 </head>
 
 <body>
@@ -20,8 +22,8 @@
         <div class="inputBox">
             <input name="age" type='text' placeholder="Enter your age here." />
         </div>
-        <div class="inputBox">
-            <select name="degree">
+        <div class="inputBox" >
+            <select name="degree" id="degree">
                 <option value="">Select One</option>
                 <option value="arts">Associate in Arts</option>
                 <option value="science">Associate in Science</option>
@@ -29,15 +31,20 @@
                 <option value="noncredit">Non-Credit Classes</option>
             </select>
         </div>
-        <div class="inputBox">
-            <select name="progress">
+        <div class="inputBox" >
+            <select name="progress" id="progress">
                 <option value="">Select One</option>
                 <option value="firstYear">First Year</option>
                 <option value="secondYear">Second Year</option>
                 <option value="returning">Returning Student</option>
             </select>
         </div>
-        <button>Submit Form</button>
+        <div class="inputBox">
+            <button>Submit Form</button>
+        </div>
+        <!-- <div id="peerMentor">
+            <h3>Your Peer Mentor is:</h3> 
+        </div> -->
     </form>
     
 </body>
