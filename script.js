@@ -7,7 +7,7 @@ window.addEventListener("load", function(){
     
 
     completeForm.addEventListener("submit", function(event){
-        button.onclick = ()=> {
+        // button.onclick = ()=> {
             const degree = document.getElementById("degree").value;
             const progress = document.getElementById("progress").value;
 
@@ -39,6 +39,6 @@ window.addEventListener("load", function(){
                 alert("DOESNT WORK");
                 event.preventDefault();
             };
-    };
+        // }
     });
 });
